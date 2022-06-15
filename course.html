@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>re-practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts-6/css/all.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="logo.jpg" alt="">
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                   <li><a href="index.html">home</a></li>
+                    <li><a href="about us.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <!--<div class="sub-course">-->
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="course-col">
+                <h3>post graduation</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <!-- </div>-->
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="bga.jpg" alt="">
+                <h3>Playground</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="bgc.jpeg" alt="">
+                <h3>Nice view</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="bg.png" alt="">
+                <h3>Gray house</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------footer------------------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+    <!-----------------------javascript---------------------------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+        function showmenu() {
+            navlinks.style.right = "0px";
+        }
+    </script>
+
+</body></html>
