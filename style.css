@@ -363,6 +363,7 @@ background-position: left;*/
     text-align: center;
     padding-top: 40px;
     width: 80%;
+
 }
 
 .testimonials h1 {
@@ -376,6 +377,7 @@ background-position: left;*/
 .testimonials .row {
     display: flex;
     justify-content: space-between;
+
 }
 
 .testimonials-col {
